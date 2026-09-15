@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IT301 Sep 15th, 2026 - BOX MODEL</title>
+        
+        <style>
+            
+            #first {
+                width: 10px;
+                height: 200px;
+                background-color: black;
+                padding: 20px;
+                margin: 30px;
+            }
+            #second {
+                width: 100px;
+                height: 10px;
+                background-color: black;
+                padding: 20px;
+                margin-top: 60px;
+                margin-bottom: 0px;
+                margin-left: 10px;
+            }
+            #third {
+                width: 10px;
+                height: 200px;
+                background-color: black;
+                padding: 20px;
+                margin: -130px;
+                margin-left: 100px;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div id="first">
+        <div id="second"></div>
+        <div id="third"></div>
+        </div>
+
+    </body>
+
+</html>
